@@ -1,0 +1,30 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# Data (raw price file may be large / excluded from version control)
+data/raw/*.csv
+!data/events/*.csv
+
+# OS / editor
+.DS_Store
+.vscode/*
+!.vscode/settings.json
+
+# Model artifacts
+*.nc
+*.pkl
+mlruns/
+
+# Logs
+*.log

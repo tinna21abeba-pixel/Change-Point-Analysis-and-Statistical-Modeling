@@ -1,0 +1,9 @@
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Generated workspace artifacts
+*.docx
+*.zip
+
+# macOS metadata
+.DS_Store

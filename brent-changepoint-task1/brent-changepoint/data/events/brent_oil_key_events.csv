@@ -1,0 +1,20 @@
+event_id,start_date,event_name,category,description,expected_price_direction
+1,1990-08-02,Iraq invades Kuwait,Conflict,"Iraqi forces invade Kuwait, triggering fears of supply disruption from two major OPEC producers and prompting a UN coalition response.",Increase
+2,1991-01-17,Operation Desert Storm begins,Conflict,"US-led coalition launches military action to expel Iraqi forces from Kuwait; Kuwaiti oil fields are set ablaze during the retreat.",Volatile/Decrease after initial spike
+3,1997-07-02,Asian Financial Crisis,Economic Shock,"Currency and financial crisis across East Asia sharply reduces regional energy demand expectations, contributing to a prolonged price slump into 1998-99.",Decrease
+4,1999-03-23,OPEC production cut agreement,OPEC Policy,"OPEC and non-OPEC producers agree to significant output cuts, helping prices recover from 1998-99 lows.",Increase
+5,2001-09-11,September 11 terrorist attacks,Geopolitical Shock,"Attacks on the US raise geopolitical uncertainty and briefly disrupt markets amid fears of broader Middle East conflict and a global demand slowdown.",Decrease then volatile
+6,2003-03-20,US invasion of Iraq,Conflict,"US-led invasion of Iraq begins, raising concerns about the security of Iraqi and regional oil supply.",Increase/Volatile
+7,2008-07-11,Oil price peaks near $147/barrel,Market Extreme,"Brent/WTI prices reach record highs amid strong global demand, a weak US dollar, and speculative activity, shortly before the financial crisis.",Peak before sharp decrease
+8,2008-09-15,Lehman Brothers collapse,Economic Shock,"Collapse of Lehman Brothers triggers the global financial crisis, causing a collapse in global oil demand expectations and a historic price crash.",Sharp decrease
+9,2011-02-15,Libyan Civil War,Conflict,"Civil war disrupts Libyan crude exports, removing a significant volume of high-quality light crude from the market and pushing prices higher.",Increase
+10,2014-06-01,Start of US shale-driven oversupply,Market Structure,"Rapid growth in US shale oil production creates a global supply glut, beginning a sustained decline in prices through late 2014.",Decrease
+11,2014-11-27,OPEC declines to cut production,OPEC Policy,"OPEC (led by Saudi Arabia) opts to maintain output rather than cut, aiming to defend market share against US shale producers, accelerating the price collapse.",Sharp decrease
+12,2016-01-16,Iran sanctions lifted / price trough,Sanctions,"Implementation of the Iran nuclear deal lifts sanctions and allows Iranian oil back onto the market, coinciding with prices bottoming near $27/barrel.",Decrease then stabilization
+13,2016-11-30,OPEC+ output cut agreement,OPEC Policy,"OPEC and major non-OPEC producers (OPEC+) agree to coordinated production cuts for the first time since 2008, supporting a price recovery.",Increase
+14,2018-05-08,US withdraws from Iran nuclear deal,Sanctions,"US exits the JCPOA and re-imposes sanctions on Iranian oil exports, tightening expected global supply.",Increase
+15,2019-09-14,Attack on Saudi Aramco facilities,Conflict,"Drone/missile strikes on Abqaiq and Khurais processing facilities knock out roughly half of Saudi oil output temporarily, causing the largest single-day price jump in years.",Sharp short-term increase
+16,2020-03-08,Saudi-Russia oil price war,OPEC Policy,"OPEC+ talks collapse; Saudi Arabia launches a price war by ramping up output and discounting crude, crashing prices amid falling COVID-19 demand.",Sharp decrease
+17,2020-04-20,WTI futures turn negative,Market Extreme,"Collapsing demand and storage capacity constraints during COVID-19 lockdowns briefly send US WTI futures negative; Brent also falls to multi-year lows.",Sharp decrease
+18,2020-04-12,Record OPEC+ production cut agreement,OPEC Policy,"OPEC+ agrees to a historic ~9.7 million barrel/day production cut to stabilize prices amid the pandemic demand shock.",Stabilization/Increase
+19,2022-02-24,Russia invades Ukraine,Conflict,"Russia's invasion of Ukraine triggers Western sanctions on Russian energy exports and fears of major supply disruption, pushing Brent above $100/barrel.",Sharp increase
