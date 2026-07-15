@@ -7,12 +7,12 @@ shocks are associated with structural changes in Brent crude oil prices
 (daily data, 20-May-1987 to 30-Sep-2022), using Bayesian change point
 detection in PyMC.
 
-## Status: Interim Submission (Task 1)
+## Status: Submission-Ready (Tasks 1–3)
 
-This submission covers Task 1 — analysis workflow definition, event
-compilation, and initial exploratory data analysis. Tasks 2 (Bayesian change
-point modeling) and 3 (Flask/React dashboard) follow in the final
-submission.
+This repository now includes the core deliverables for the full challenge:
+Task 1 event compilation and initial EDA, Task 2 Bayesian change-point
+modeling, and Task 3 a Flask backend plus a React dashboard for exploring
+results.
 
 ## Project Structure
 
@@ -47,20 +47,37 @@ columns `Date` (format `dd-Mon-yy`) and `Price` (USD/barrel), then run
 to a clearly-labeled synthetic series so the analysis code can still be
 reviewed and exercised end-to-end.
 
-## Task 1 Deliverables
+## Deliverables
 
-1. **Analysis workflow document** — `reports/interim_report.docx`
-2. **Key events dataset** — `data/events/brent_oil_key_events.csv` (19 events)
-3. **Assumptions & limitations** — included in `reports/interim_report.docx`
-4. **Initial EDA** — `notebooks/task1_eda.ipynb`
+1. **Task 1** — event dataset and initial EDA notebook: `data/events/brent_oil_key_events.csv`, `notebooks/task1_eda.ipynb`
+2. **Task 2** — Bayesian change-point analysis: `src/change_point_analysis.py`, `notebooks/task2_changepoint.ipynb`
+3. **Task 3** — Flask API and React dashboard: `app.py`, `frontend/`
 
-## Roadmap
+## Run the app
 
-- **Task 2:** Bayesian single/multiple change point model in PyMC on log
-  returns; posterior analysis of `tau`, before/after means; association
-  with events in the compiled dataset; quantified impact statements.
-- **Task 3:** Flask API serving price, change point, and event data; React
-  dashboard with date filtering and event-highlight functionality.
+### Backend
+
+```bash
+python app.py
+```
+
+Then visit http://127.0.0.1:5000/api/health.
+
+### Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev -- --host 127.0.0.1
+```
+
+Then open http://127.0.0.1:5173/.
+
+## Run tests
+
+```bash
+python -m pytest -q
+```
 
 ## Team
 
